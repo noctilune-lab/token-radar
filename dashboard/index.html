@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar · pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <svg class="scope" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true">
+      <circle cx="16" cy="16" r="14"/><circle cx="16" cy="16" r="9"/><circle cx="16" cy="16" r="4"/>
+      <path d="M16 2V30M2 16H30" class="xh"/>
+      <path d="M16 16L16 2" class="sweep"/>
+      <circle cx="22" cy="9" r="1.6" class="blip"/><circle cx="10" cy="21" r="1.2" class="blip"/>
+    </svg>
+    <div><h1>TOKEN RADAR</h1><p>Protocols with no token yet, ranked by implied value</p></div>
+  </div>
+  <div class="stats" id="stats"></div>
+</header>
+<nav class="bar" id="bar" aria-label="Views and filters"></nav>
+<main id="app"></main>
+<noscript><p class="ns">This dashboard needs JavaScript and ../data.js.</p></noscript>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
